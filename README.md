@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
 
-## Project info
+# FineXpress - Web-Based Roadside Fine Collection System
 
-**URL**: https://lovable.dev/projects/db0e6269-0d93-41dd-8204-e32d23b1b407
+## Overview
 
-## How can I edit this code?
+FineXpress is a mobile-friendly web application designed to assist traffic enforcement officers in issuing, managing, and collecting road traffic fines directly on the road. The system streamlines the process of ticketing offenders, ensures transparency, and enables digital payment of fines by drivers via a secure online portal.
 
-There are several ways of editing your application.
+## Target Users
 
-**Use Lovable**
+- **Traffic Officers**: Issue fines in real-time from the roadside
+- **Drivers/Civilians**: View and pay fines online
+- **Admins/Supervisors**: Monitor activities, generate reports, and manage system settings
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/db0e6269-0d93-41dd-8204-e32d23b1b407) and start prompting.
+## 🎯 Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### Officer Panel
+- Secure officer login
+- Real-time fine issuance with:
+  - License plate input
+  - Traffic offense selection with auto-calculated amounts
+  - Notes section
+  - Auto-generated digital ticket
+- Personal fine history tracking
+- Mobile-responsive interface
 
-**Use your preferred IDE**
+### Admin Panel
+- Comprehensive admin dashboard
+- Manage traffic offense types and fine amounts
+- View and filter all issued fines
+- Generate and export reports
+- Monitor officer activities
+- System settings management
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Driver Portal
+- Easy access to fine details
+- View complete fine information
+- Secure online payment processing
+- Digital receipt generation
+- Mobile-friendly interface
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚙️ Tech Stack
 
-Follow these steps:
+- **Frontend**: 
+  - React 18
+  - TypeScript
+  - Tailwind CSS
+  - Shadcn UI Components
+  - React Query for data management
+  - React Router for navigation
+
+- **UI/UX Features**:
+  - Responsive design for all devices
+  - Modern, intuitive interface
+  - Real-time updates
+  - Toast notifications
+  - Form validations
+
+## Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install the necessary dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Development & Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is built using Vite for fast development and optimized production builds. To deploy:
 
-**Use GitHub Codespaces**
+```sh
+# Build for production
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview the production build locally
+npm run preview
+```
 
-## What technologies are used for this project?
+## Browser Support
 
-This project is built with:
+The application is tested and supported on:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contributing
 
-## How can I deploy this project?
+To contribute to this project:
 
-Simply open [Lovable](https://lovable.dev/projects/db0e6269-0d93-41dd-8204-e32d23b1b407) and click on Share -> Publish.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
