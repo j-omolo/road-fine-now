@@ -18,24 +18,32 @@ FineXpress is a mobile-friendly web application designed to assist traffic enfor
 - Real-time fine issuance with:
   - License plate input
   - Traffic offense selection with auto-calculated amounts
+  - Photo upload capability
+  - GPS location capture
   - Notes section
   - Auto-generated digital ticket
+- Ability to send ticket via SMS or email
 - Personal fine history tracking
 - Mobile-responsive interface
 
 ### Admin Panel
 - Comprehensive admin dashboard
 - Manage traffic offense types and fine amounts
+- Officer management 
+  - List officers
+  - Edit officer details
+  - Monitor officer activities
 - View and filter all issued fines
-- Generate and export reports
-- Monitor officer activities
+- Generate and export reports (CSV/PDF)
 - System settings management
+- Activity logs
 
 ### Driver Portal
 - Easy access to fine details
 - View complete fine information
-- Secure online payment processing
+- Secure online payment processing (ItaSend integration)
 - Digital receipt generation
+- QR code ticket access
 - Mobile-friendly interface
 
 ## ⚙️ Tech Stack
@@ -48,6 +56,16 @@ FineXpress is a mobile-friendly web application designed to assist traffic enfor
   - React Query for data management
   - React Router for navigation
 
+- **Backend**:
+  - Supabase integration
+  - Real-time database
+  - Authentication
+  - API management
+
+- **Payment**:
+  - ItaSend payment gateway
+  - Secure transaction processing
+
 - **UI/UX Features**:
   - Responsive design for all devices
   - Modern, intuitive interface
@@ -58,50 +76,56 @@ FineXpress is a mobile-friendly web application designed to assist traffic enfor
 ## Getting Started
 
 ```sh
-# Step 1: Clone the repository
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd finexpress
 
-# Step 3: Install the necessary dependencies
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server
+# Start development server
 npm run dev
 ```
 
 ## Development & Deployment
 
-This project is built using Vite for fast development and optimized production builds. To deploy:
+Built with Vite for fast development and optimized builds:
 
 ```sh
 # Build for production
 npm run build
 
-# Preview the production build locally
+# Preview production build
 npm run preview
 ```
 
 ## Browser Support
 
-The application is tested and supported on:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+Tested and supported on latest versions of:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## Upcoming Features
+- Enhanced officer management
+- Advanced reporting
+- More payment gateway integrations
 
 ## Contributing
 
-To contribute to this project:
-
 1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Create Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT License - see LICENSE file for details.
 
+## Contact
+
+For support or inquiries, please contact [Your Contact Information]
